@@ -1,0 +1,56 @@
+html{
+    font-size: 10px;
+}
+
+section{
+    background-color: grey;
+    width: 800px;
+    height: 800px;
+}
+
+div{
+    background-color: pink;
+    /* the parent of the div in this case is the section its nested in, so the sizes will be
+     50% of the section dimensions */
+    width: 50%;
+    height: 50%;
+}
+
+h1{
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%;
+}
+
+h2{
+    font-size: 2em;
+    margin-left: 1em;
+}
+
+article{
+    font-size: 20px;
+}
+
+button{
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius: 0.5em;
+    background-color: teal;
+    color: white;
+}
+
+#em ul{
+    font-size: 1.2em;
+}
+
+#rems h2{
+    font-size: 3rem;
+}
+
+#rems h3{
+    font-size: 2rem;
+}
+
+#rems ul{
+    font-size: 0.8rem;
+}
